@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.addBtn {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(165, 39, 17);
+  padding: 10px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+  color: white;
+}
+
+.btn {
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+  font-weight: normal;
+  outline: none;
+}
+.heading {
+  background-color: #fff;
+  color: tomato;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+  border-top: 2px solid tomato;
+  border-right: 2px solid tomato;
+  border-left: 2px solid tomato;
+  outline: none;
+}
+
+.noteApp {
+  background-color: tomato;
+  color: white;
+  width: 320px;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+}
