@@ -12,7 +12,7 @@ body {
   position: fixed;
   right: 0;
   bottom: 0;
-  background-color: rgb(165, 39, 17);
+  background-color: rgb(10, 10, 152);
   padding: 10px;
   text-align: center;
   height: 50px;
@@ -52,22 +52,33 @@ body {
 }
 .heading {
   background-color: #fff;
-  color: tomato;
+  color: rgb(10, 10, 122);
   border-radius: 10px;
   margin: 0;
   padding: 0;
-  border-top: 2px solid tomato;
-  border-right: 2px solid tomato;
-  border-left: 2px solid tomato;
+  border-top: 2px solid rgb(10, 10, 122);
+  border-right: 2px solid rgb(10, 10, 122);
+  border-left: 2px solid rgb(10, 10, 122);
   outline: none;
+}
+h2 {
+  text-align: center;
+  margin: 5px;
+  color: rgb(10, 10, 122);
 }
 
 .noteApp {
-  background-color: tomato;
+  background-color: rgb(10, 10, 122);
   color: white;
   width: 320px;
   height: auto;
   border-radius: 10px;
   text-align: center;
   margin: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .noteApp {
+    width: 70vw;
+  }
 }
